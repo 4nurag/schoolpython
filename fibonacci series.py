@@ -13,7 +13,7 @@ def fib(n):
         for i in range(n-2):
             c = a+b
             a = b
-            b = c
+            b = c                       # after this a becomes b . and b becomes previous a + b. 
             print(b,end = " ")
 print(fib( ))
     
